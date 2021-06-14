@@ -47,30 +47,39 @@ Here are all the available API Route Endpoints:
 
 CATEGORIES<br>
 ![GET All Categories](https://img.shields.io/badge/All%20Categories-GET-blueviolet) http://localhost:3001/api/categories <br>
-![GET Single Category](https://img.shields.io/badge/Single%20Category-GET-blueviolet) http://localhost:3001/api/categories/`id number here` <br> 
+![GET Single Category](https://img.shields.io/badge/Single%20Category-GET-blueviolet) http://localhost:3001/api/categories/id-number-here <br> 
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 ![POST Create A Category](https://img.shields.io/badge/Create%20A%20Category-POST-brightgreen) http://localhost:3001/api/categories <br>
 `You must use an environment like Insomnia to POST to the database. It is expecting a JSON body object with category_name`.  <br> 
-![PUT UPDATE A Category](https://img.shields.io/badge/Update%20A%20Category-PUT-orange) http://localhost:3001/api/categories/`id number here` <br>
+![PUT UPDATE A Category](https://img.shields.io/badge/Update%20A%20Category-PUT-orange) http://localhost:3001/api/categories/id-number-here <br>
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 `You must use an environment like Insomnia to PUT to the database. It is expecting a JSON body object with category_name to update`. <br> 
-![DELETE A Category](https://img.shields.io/badge/Delete%20A%20Category-DELETE-red) http://localhost:3001/api/categories/`id number here` 
+![DELETE A Category](https://img.shields.io/badge/Delete%20A%20Category-DELETE-red) http://localhost:3001/api/categories/id-number-here <br>
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 
 PRODUCTS <br> 
 ![GET All Products](https://img.shields.io/badge/All%20Products-GET-blueviolet) http://localhost:3001/api/procuts <br> 
-![GET Single Product](https://img.shields.io/badge/Single%20Product-GET-blueviolet) http://localhost:3001/api/products/`id number here` <br> 
+![GET Single Product](https://img.shields.io/badge/Single%20Product-GET-blueviolet) http://localhost:3001/api/products/id-number-here <br> 
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 ![POST Create A Product](https://img.shields.io/badge/Create%20A%20Product-POST-brightgreen) http://localhost:3001/api/products <br>
 `You must use an environment like Insomnia to POST to the database. It is expecting a JSON body object with product_name, price, stock, and category_id`.  <br> 
-![PUT UPDATE A Product](https://img.shields.io/badge/Update%20A%20Product-PUT-orange) http://localhost:3001/api/products/`id number here` <br>
+![PUT UPDATE A Product](https://img.shields.io/badge/Update%20A%20Product-PUT-orange) http://localhost:3001/api/products/id-number-here <br>
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 `You must use an environment like Insomnia to PUT to the database. It is expecting a JSON body object with updated parameters. The tagIds should be an array of the numbers referring to the appropriate tags`. <br> 
-![DELETE A Product](https://img.shields.io/badge/Delete%20A%20Product-DELETE-red) http://localhost:3001/api/categories/`id number here`
+![DELETE A Product](https://img.shields.io/badge/Delete%20A%20Product-DELETE-red) http://localhost:3001/api/categories/id-number-here <br>
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 
 TAGS <br> 
 ![GET All Tags](https://img.shields.io/badge/All%20Tags-GET-blueviolet) http://localhost:3001/api/tags <br> 
-![GET Single Tag](https://img.shields.io/badge/Single%20Tag-GET-blueviolet) http://localhost:3001/api/tags/`id number here` <br> 
+![GET Single Tag](https://img.shields.io/badge/Single%20Tag-GET-blueviolet) http://localhost:3001/api/tags/id-number-here <br> 
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 ![POST Create A Tag](https://img.shields.io/badge/Create%20A%20Tag-POST-brightgreen) http://localhost:3001/api/tags <br>
 `You must use an environment like Insomnia to POST to the database. It is expecting a JSON body object with tag_name`.  <br> 
-![PUT UPDATE A Tag](https://img.shields.io/badge/Update%20A%20Tag-PUT-orange) http://localhost:3001/api/tags/`id number here` <br>
+![PUT UPDATE A Tag](https://img.shields.io/badge/Update%20A%20Tag-PUT-orange) http://localhost:3001/api/tags/id-number-here <br>
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
 `You must use an environment like Insomnia to PUT to the database. It is expecting a JSON body object with tag_name to update`.  <br> 
-![DELETE A Tag](https://img.shields.io/badge/Delete%20A%20Tag-DELETE-red) http://localhost:3001/api/tags/`id number here` 
+![DELETE A Tag](https://img.shields.io/badge/Delete%20A%20Tag-DELETE-red) http://localhost:3001/api/tags/id-number-here <br>
+`Be sure to place the appropriate ID number in the spot id-number-here`. <br>
     
 
 ## Contributing
